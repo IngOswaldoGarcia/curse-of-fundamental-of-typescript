@@ -1,0 +1,7 @@
+npm init
+
+to create package.json file
+
+npm install typescript --save-dev
+
+to install typescript
