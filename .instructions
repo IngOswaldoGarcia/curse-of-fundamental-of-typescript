@@ -2,6 +2,26 @@ npm init
 
 to create package.json file
 
+
 npm install typescript --save-dev
 
 to install typescript
+
+
+#to transpile or convert files from ts to js
+
+npx tsc src/filename.ts
+
+
+#to transpile to specific version of Ecsma script
+
+npx tsc src/filename.ts --target es6
+
+
+#to transpile all file to Escmascript in an specific file
+#create file tsconfig.js
+npx tsc --init --target es6
+
+#create folder ./dist
+#in this file search for "outDir":"./dist" and modify to "outDir": "./dist",
+and save file
