@@ -25,3 +25,9 @@ npx tsc --init --target es6
 #create folder ./dist
 #in this file search for "outDir":"./dist" and modify to "outDir": "./dist",
 and save file
+
+#Use for transpile every ts file
+npx tsc
+
+#For constantly read files
+npx tsc --watch
