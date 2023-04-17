@@ -31,3 +31,6 @@ npx tsc
 
 #For constantly read files
 npx tsc --watch
+
+#To excecute files
+node dist/filename.js
